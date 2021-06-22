@@ -88,7 +88,7 @@ public class ChainImplementation implements ChainInterface {
        Iterator<Block> it = blockChain.iterator();
        while (it.hasNext()){
            for( int x = 0; x < blockChain.size(); x++){
-               System.out.println(it.next()+" : "+blockChain.get(blockChain.size()-1).hash);
+               System.out.println(it.next()+" : "+blockChain.get(x).hash);
            }
        }
         
